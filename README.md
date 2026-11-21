@@ -108,11 +108,30 @@ Edit `shortcuts.json` in the same folder as `XperiaSysMon.exe` to customize your
 * **Navigation:** Swipe left/right on the touchscreen or use the `Left` / `Right` arrow keys. Press `Esc` to close the application (automatically releasing the primary monitor cursor lock).
 * **Build Requirements:** .NET 6.0 Desktop Runtime (`net6.0-windows`), Windows 10/11, NVIDIA GPU (`nvidia-smi` for GPU telemetry), and [Core Temp](https://www.alcpu.com/CoreTemp/) (optional, for CPU package temperature).
 
-```cmd
-dotnet publish -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true
+---
 
-```
+### To auto start the application set up a `Task Scheduler` with the below settings:
+<img width="632" height="480" alt="image" src="https://github.com/user-attachments/assets/9d09e351-c9a5-47b6-b81d-a3eeefcf1a13" />
 
-```
+---
 
-```
+### In `Trigger` Tab, click `New`
+<img width="591" height="516" alt="image" src="https://github.com/user-attachments/assets/2cd8c0cc-5347-47ae-b9f2-f4f82e1e70c5" />
+
+---
+
+### In `Action` Tab, click `New`
+<img width="454" height="500" alt="image" src="https://github.com/user-attachments/assets/db9d3dcf-8ffd-4d49-9176-ad2d5f319c65" />
+
+---
+
+### `Conditions` Tab
+<img width="632" height="480" alt="image" src="https://github.com/user-attachments/assets/47441484-0d68-4051-a871-7c7db80c25fd" />
+
+---
+
+### `Settings` Tab
+<img width="632" height="480" alt="image" src="https://github.com/user-attachments/assets/49e70edb-656c-4d8d-92b9-45f6e21e8143" />
+
+---
+
