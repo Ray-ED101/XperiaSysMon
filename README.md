@@ -40,7 +40,7 @@ To use direct single-finger swiping and instant tile taps without trackpad curso
 
 1. **Install Artemis:** Download the latest `.apk` from the [official Artemis Releases page](https://github.com/ClassicOldSong/moonlight-android/releases) and install it on your Android device.
 2. **Configure Touch & Video Settings:** Open **Artemis** → **Settings (gear icon)** and set:
-   * **Touchscreen mode:** `Absolute Touch` (maps finger taps and left/right swipes directly to exact pixel coordinates on `Display 2`).
+   * **Touchscreen mode:** `Multi Touch` (maps finger taps and left/right swipes directly to exact pixel coordinates on `Display 2`).
    * **Video resolution & FPS:** Match your secondary virtual display resolution (e.g., `2520x1080` or `1080p`) at `30 FPS` or `60 FPS`.
    * **Video codec:** `H.264` (with **HDR** turned `Off`).
 3. **Pair with Sunshine:** Connect your phone via USB Tethering (or local Wi-Fi), tap your PC in Artemis to generate a 4-digit PIN, and enter it into the **PIN** tab of Sunshine (`https://localhost:47990`).
